@@ -4,3 +4,6 @@ google_project/package.json
 google_home_page/vite.config.js
 google_home_page/package.json
 .gitignore
+Google_homePage/package.json
+.gitignore
+Google_homePage/vite.config.js
