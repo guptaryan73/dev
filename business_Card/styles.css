@@ -1,0 +1,31 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 300px;
+}
+
+.card {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddebf8;
+    border-bottom: 5px solid #d8cefe;
+}
+
+/* 
+    Challenge:
+    Add colors to the card according to the design.
+    black - #2b2839 (the text color)
+    blue - #ddebf8
+    purple - #d8cefe
+    */
+.info {
+    color: #2b2839;
+    text-align: center;
+}

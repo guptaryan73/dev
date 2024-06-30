@@ -1,0 +1,29 @@
+/*
+Challenge:
+1. Center the text and button
+2. Style the button according to the design.
+   Use a class to select the button.
+*/
+
+body {
+    width: 100vh;
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGk5OWswaDRkY3Y5OWxtOGR3b3p2bWdlMXoxdDM2bWt3OW41MTZ5biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5QSIcVPpTj9r7RXbNb/giphy.webp");
+    background-size: cover;
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 400 to 900
+
+    .orbitron-<uniquifier> {
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+}
+
+
+
+
+.button_click {
+    border-radius: 0%;
+}
