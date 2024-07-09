@@ -1,0 +1,72 @@
+body {
+    background-image: url("images/—Pngtree—blue watercolor landscape computer desktop_1442173.png");
+    font-family: 'Poppins';
+    color: white;
+}
+
+::placeholder {
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    color: #143750;
+}
+
+#input_Box {
+    font-size: larger;
+    padding: 10px 50px;
+    width: 75vh;
+    height: 4vh;
+    outline: none;
+}
+
+ul li {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 10px auto;
+    display: flex;
+    padding: 15px;
+    max-width: 500px;
+    justify-content: space-around;
+}
+ul button {
+    margin-left: auto;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+ul input {
+    outline: none;
+    color: white;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.input_Div {
+    margin: 200px auto 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
