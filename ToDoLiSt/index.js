@@ -6,24 +6,25 @@ window.onload = function () {
     let tasks = []
     tasks = JSON.parse(localStorage.getItem('tasks'));
     tasks.forEach(task => {
-        Element(task);
+        createTask(task);
     });
 };
 
 inputBox.addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
         let CurrentTask = inputBox.value;
-        Element(CurrentTask);
+        createTask(CurrentTask);
         inputBox.value = '';
 
         // Save the new task to local storage
-        let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+        let tasks = []
+        tasks = JSON.parse(localStorage.getItem('tasks'));
         tasks.push(CurrentTask);
         localStorage.setItem('tasks', JSON.stringify(tasks));
     }
 });
 
-function Element(CurrentTask) {
+function createTask(CurrentTask) {
 
     let eachTask = document.createElement("li")
     eachTask.appendChild(document.createTextNode(CurrentTask))
@@ -59,11 +60,10 @@ function Element(CurrentTask) {
 
 
     function updateTasks() {
-        let updatedTasks = [];
+        let tasks = [];
         document.querySelectorAll('#myList li').forEach(item => {
-            updatedTasks.push(item.firstChild.textContent || item.firstChild.value); // Ensure text content or input value is captured
+            tasks.push(item.firstChild.textContent || item.firstChild.value); // Ensure text content or input value is captured
         });
-        localStorage.setItem('tasks', JSON.stringify(updatedTasks));
+        localStorage.setItem('tasks', JSON.stringify(tasks));
     }
-
 }

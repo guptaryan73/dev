@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://images.alphacoders.com/132/1329915.jpeg');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    font-size: x-large;
+    font-family: 'Poppins';
+}
+
+.fOlLoWeRsAnDfOlLoWiNg {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    max-width: 80vh;
+}
+.name
+{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: #C1ECE8;
+    text-align: center;
+font-size: x-large;
+}
+
+::placeholder {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: large;
+    color: #C1ECE8;
+}
+
+input {
+    font-size: large;
+    outline: none;
+    color: aliceblue;
+    width: 30vh;
+    height: 5vh;
+    padding: 4px 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+ul li:first-child {
+
+    margin-right: 100px;
+
+}
+
+.Github_details img {
+    border-radius: 50%;
+    border: 5px solid #192F3C;
+    display: block;
+    margin: auto;
+}
+
+.glass,
+.input_Box {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: center;
+}

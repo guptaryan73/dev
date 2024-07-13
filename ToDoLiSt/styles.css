@@ -32,7 +32,11 @@ ul li {
     padding: 15px;
     max-width: 500px;
     justify-content: space-around;
+    word-wrap: break-word; /* Ensure this is set */
+    overflow-wrap: break-word; /* Add this for better support */
+    word-break: break-word; /* Helps break long words */
 }
+
 ul button {
     margin-left: auto;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
