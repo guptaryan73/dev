@@ -1,4 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+    background: url('https://i.pinimg.com/originals/49/dc/61/49dc61147e167cac642dd852181dc152.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins';
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+h1,
+h3 {
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    color: #392949;
+}
+h3
+{
+    margin-bottom: 30px;
+}
+h1 {
+    margin: 50px;
+    margin-bottom: 20px;
+}
+
+.boxes {
+    overflow: hidden;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 5px solid #392949;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamebox {
+    border: 5px solid #392949;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: center;
+}
